@@ -1,3 +1,3 @@
 # Portfolio Site
 
-- Next.js, React
+[DEPLOYMENT NOT YET ACTIVE]
