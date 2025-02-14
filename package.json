@@ -1,6 +1,6 @@
 {
-  "name": "my-portfolio",
-  "private": true,
+  "name": "skrigel-personal",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -41,7 +41,7 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "sk-porfolio-2025"
+    "url": "https://skrigel.github.io"
   },
   "author": "Sasha Krigel",
   "license": "ISC"
