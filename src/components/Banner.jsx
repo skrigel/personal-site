@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "../App.css";
 import "./Banner.css";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/IMG_1363.JPG";
+// import headerImg from "../assets/img/IMG_1363.JPG";
 import { useEffect, useState } from "react";
 
 export const Banner = () => {
@@ -56,7 +56,7 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container className="align-items-center">
+      <Container>
         <Row>
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my site!</span>
@@ -69,8 +69,12 @@ export const Banner = () => {
               Let's Connect <ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={12} md={6} xl={5} className="u-near-top">
-            <img src={headerImg} className="profile" alt="Profile img" />
+          <Col xs={12} md={6} xl={5}>
+            <img
+              src={"../assets/img/IMG_1363.JPG"}
+              className="profile"
+              alt="Profile img"
+            />
           </Col>
         </Row>
       </Container>

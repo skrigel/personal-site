@@ -1,6 +1,9 @@
 /************ Projects Css ************/
 .project {
   /* padding: px 0; */
+  /* position: absolute; */
+  /* take up whole width */
+  width: 100% !important;
   position: relative;
   background-color: black;
 }

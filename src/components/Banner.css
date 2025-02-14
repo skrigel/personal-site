@@ -10,12 +10,16 @@
 }
 
 .banner {
+  position: relative;
+  /* take up whole width */
+  width: 100% !important;
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url("../assets/img/banner-bg.png");
+  /* background-size: auto; */
   background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 .banner .tagline {
   font-weight: 700;
@@ -47,7 +51,9 @@
   width: 96%;
 }
 .banner button {
-  color: #fff;
+  color: white;
+  background-color: transparent;
+  outline: white;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
